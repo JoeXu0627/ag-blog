@@ -1,6 +1,11 @@
 import type { UIStrings } from "../types";
 
 export default {
+  site: {
+    title: "JoJo Xutang",
+    description: "JoJo Xutang's personal blog",
+    author: "JoJo Xutang",
+  },
   nav: {
     home: "Home",
     posts: "Posts",

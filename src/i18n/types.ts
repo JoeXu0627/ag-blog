@@ -1,4 +1,9 @@
 export interface UIStrings {
+  site: {
+    title: string;
+    description: string;
+    author: string;
+  };
   nav: {
     home: string;
     posts: string;

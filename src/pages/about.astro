@@ -5,6 +5,7 @@ import Header from "@/components/Header.astro";
 import Breadcrumb from "@/components/Breadcrumb.astro";
 import Main from "@/components/Main.astro";
 import Footer from "@/components/Footer.astro";
+import { useTranslations } from "@/i18n";
 import config from "@/config";
 
 const about = await getEntry("pages", "about");
@@ -15,11 +16,12 @@ if (!about) {
   );
 }
 
+const t = useTranslations(Astro.currentLocale ?? config.site.lang);
 const { Content } = await render(about);
 ---
 
 <Layout
-  title={`${about.data.title} | ${config.site.title}`}
+  title={`${about.data.title} | ${t.site.title}`}
   description={about.data.description}
   ogImage={about.data.ogImage}
   canonicalURL={about.data.canonicalURL}

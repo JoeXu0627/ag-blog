@@ -1,6 +1,11 @@
 import type { UIStrings } from "../types";
 
 export default {
+  site: {
+    title: "徐唐JoJo",
+    description: "徐唐JoJo 的个人博客",
+    author: "徐唐JoJo",
+  },
   nav: {
     home: "首页",
     posts: "文章",

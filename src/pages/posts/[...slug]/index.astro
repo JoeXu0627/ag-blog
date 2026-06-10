@@ -14,6 +14,7 @@ import ShareLinks from "./_components/ShareLinks.astro";
 import BackButton from "./_components/BackButton.astro";
 import BackToTopButton from "./_components/BackToTopButton.astro";
 import AdjacentPostNav from "./_components/AdjacentPostNav.astro";
+import { useTranslations } from "@/i18n";
 import config from "@/config";
 
 export async function getStaticPaths() {
@@ -58,6 +59,7 @@ type Props = {
 
 const { post, prevPost, nextPost } = Astro.props;
 const locale = Astro.currentLocale ?? config.site.lang;
+const t = useTranslations(locale);
 
 const {
   title,
@@ -95,7 +97,7 @@ const ogImage = ogImageUrl
 ---
 
 <PostLayout
-  title={`${title} | ${config.site.title}`}
+  title={`${title} | ${t.site.title}`}
   description={description}
   ogImage={ogImage}
   canonicalURL={canonicalURL}
