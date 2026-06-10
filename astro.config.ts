@@ -32,10 +32,13 @@ export default defineConfig({
     }),
   ],
   i18n: {
-    locales: ["zh-CN"],
+    locales: ["zh-CN", "en"],
     defaultLocale: "zh-CN",
+    // 英文路由 (/en/...) 复用中文内容渲染，仅界面文案切换为英文
+    fallback: { en: "zh-CN" },
     routing: {
       prefixDefaultLocale: false,
+      fallbackType: "rewrite",
     },
   },
   markdown: {

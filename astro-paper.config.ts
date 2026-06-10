@@ -3,9 +3,9 @@ import { defineAstroPaperConfig } from "./src/types/config";
 export default defineAstroPaperConfig({
   site: {
     url: "https://joexu0627.github.io/ag-blog",
-    title: "AsyncGenius Blog",
-    description: "AsyncGenius 的个人博客",
-    author: "AsyncGenius",
+    title: "徐唐JoJo",
+    description: "徐唐JoJo 的个人博客",
+    author: "徐唐JoJo",
     profile: "https://github.com/JoeXu0627",
     ogImage: "default-og.jpg",
     lang: "zh-CN",
@@ -30,7 +30,7 @@ export default defineAstroPaperConfig({
   },
   socials: [
     { name: "github",   url: "https://github.com/JoeXu0627" },
-    { name: "mail",     url: "mailto:DajuanZarza@gmail.com" },
+    { name: "mail",     url: "mailto:xutangly@gmail.com" },
   ],
   shareLinks: [
     { name: "whatsapp", url: "https://wa.me/?text=" },
