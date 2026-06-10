@@ -3,7 +3,7 @@ import { defineAstroPaperConfig } from "./src/types/config";
 export default defineAstroPaperConfig({
   site: {
     url: "https://joexu0627.github.io/ag-blog",
-    title: "徐唐JoJo",
+    title: "徐唐JoJo的博客",
     description: "徐唐JoJo 的个人博客",
     author: "徐唐JoJo",
     profile: "https://github.com/JoeXu0627",
@@ -19,7 +19,7 @@ export default defineAstroPaperConfig({
   },
   features: {
     lightAndDarkMode: true,
-    dynamicOgImage: true,
+    dynamicOgImage: false,
     showArchives: true,
     showBackButton: true,
     editPost: {

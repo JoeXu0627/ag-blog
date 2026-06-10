@@ -2,7 +2,7 @@ import type { UIStrings } from "../types";
 
 export default {
   site: {
-    title: "JoJo Xutang",
+    title: "JoJo's Blog",
     description: "JoJo Xutang's personal blog",
     author: "JoJo Xutang",
   },
@@ -34,6 +34,9 @@ export default {
     page: "Page",
   },
   home: {
+    heroTitle: "Hi, I'm JoJo 👋",
+    heroIntro:
+      "Former engineer at iFLYTEK Research, Dedao, and ByteDance \u2014 now building AI products for the global market. I write about LLMs, SEO, and audio/video technology.",
     socialLinks: "Social Links",
     featured: "Featured",
     recentPosts: "Recent Posts",

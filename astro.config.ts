@@ -29,6 +29,11 @@ export default defineConfig({
     sitemap({
       filter: page =>
         config.features?.showArchives !== false || !page.endsWith("/archives/"),
+      // 为中英文版本的同一页面输出 hreflang 互链
+      i18n: {
+        defaultLocale: "zh-CN",
+        locales: { "zh-CN": "zh-CN", en: "en" },
+      },
     }),
   ],
   i18n: {

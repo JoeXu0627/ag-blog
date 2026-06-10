@@ -1,12 +1,13 @@
 import { getRelativeLocaleUrl } from "astro:i18n";
-import { BLOG_PATH } from "@/content.config";
+import { BLOG_PATH, BLOG_PATH_EN } from "@/content.config";
 import { slugifyStr } from "./slugify";
 import config from "@/config";
 
 function getPostPathSegments(filePath: string | undefined): string[] {
   return (
     filePath
-      ?.replace(BLOG_PATH, "")
+      ?.replace(BLOG_PATH_EN, "")
+      .replace(BLOG_PATH, "")
       .split("/")
       .filter(path => path !== "")
       .filter(path => !path.startsWith("_"))

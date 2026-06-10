@@ -2,7 +2,7 @@ import type { UIStrings } from "../types";
 
 export default {
   site: {
-    title: "徐唐JoJo",
+    title: "徐唐JoJo的博客",
     description: "徐唐JoJo 的个人博客",
     author: "徐唐JoJo",
   },
@@ -34,6 +34,9 @@ export default {
     page: "第",
   },
   home: {
+    heroTitle: "你好，我是徐唐JoJo 👋",
+    heroIntro:
+      "先后在科大讯飞研究院、得到 APP、字节跳动做过模型训练、大数据工程和 toB 咨询，现在创业做 AI 产品出海。这里记录我关于 LLM、SEO 和音视频技术的思考与实践。",
     socialLinks: "社交链接",
     featured: "精选",
     recentPosts: "最新文章",
