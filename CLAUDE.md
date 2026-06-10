@@ -6,7 +6,7 @@ Astro 6 + AstroPaper v6，GitHub Pages 部署（push main 自动触发 `.github/
 
 - **只用 pnpm**（npm install 会导致依赖版本漂移、`astro check` 类型报错）
 - astro 必须 ≥6.4.5（6.4.2 的 i18n fallback rewrite 有空页面 bug）
-- `astro.config.ts` 设有 `base: "/ag-blog"`；换自定义域名时删 base 并更新 `astro-paper.config.ts` 的 site.url
+- 自定义域名 https://xutangly.com（Cloudflare DNS，CNAME 平铺指向 joexu0627.github.io，public/CNAME 文件保持域名绑定）
 - 删除/移动文章后若本地构建报 ImageNotFound：`rm -rf .astro node_modules/.astro node_modules/.vite dist`
 
 ## 双语架构
@@ -25,7 +25,7 @@ Astro 6 + AstroPaper v6，GitHub Pages 部署（push main 自动触发 `.github/
 1. 将文章**翻译成英文**，写入 `src/content/posts-en/<同名文件>.md`
    - title、description、正文翻译成地道英文（不是直译）；tags 用英文；
    - `pubDatetime` 等时间字段与中文版保持一致；
-   - 正文里的站内链接把 `/ag-blog/...` 改为 `/ag-blog/en/...`（如果对应英文页面存在）
+   - 正文里的站内链接把 `/...` 改为 `/en/...`（如果对应英文页面存在）
 2. 用户修改已有中文文章时，同步更新对应英文译文
 3. `pnpm run build` 验证后 commit + push（中英文一起提交）
 

@@ -18,4 +18,4 @@ This blog will document what I learn and think about across three areas:
 
 Writing serves two purposes for me: turning scattered practice into reusable knowledge, and nudging myself to keep showing up and engaging with the world.
 
-Feel free to reach out via the [about page](/ag-blog/en/about/).
+Feel free to reach out via the [about page](/en/about/).

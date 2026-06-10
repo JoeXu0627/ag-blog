@@ -2,7 +2,7 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    url: "https://joexu0627.github.io/ag-blog",
+    url: "https://xutangly.com",
     title: "徐唐JoJo的博客",
     description: "徐唐JoJo 的个人博客",
     author: "徐唐JoJo",

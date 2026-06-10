@@ -24,6 +24,6 @@ export const events: EventEntry[] = [
       "zh-CN": "跟 Yuki 的直播：聊 Agent 到底该怎么上桌",
       en: "Livestream with Yuki: how AI agents actually earn a seat at the table",
     },
-    link: "/ag-blog/posts/agents-at-the-table/",
+    link: "/posts/agents-at-the-table/",
   },
 ];

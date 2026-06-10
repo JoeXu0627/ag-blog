@@ -21,9 +21,6 @@ import config from "./astro-paper.config";
 
 export default defineConfig({
   site: config.site.url,
-  // 部署在 GitHub Pages 项目页 (joexu0627.github.io/ag-blog)，需要子路径前缀；
-  // 以后换自定义域名时删掉这行即可
-  base: "/ag-blog",
   integrations: [
     mdx(),
     sitemap({
