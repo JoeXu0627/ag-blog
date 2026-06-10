@@ -97,6 +97,14 @@ const switchLocaleLabel = locale === "en" ? "切换到中文" : "Switch to Engli
         </li>
         <li class="col-span-2">
           <a
+            href={getRelativeLocaleUrl(locale, "events")}
+            class:list={{ "active-nav": isActive("/events") }}
+          >
+            {t.nav.events}
+          </a>
+        </li>
+        <li class="col-span-2">
+          <a
             href={getRelativeLocaleUrl(locale, "about")}
             class:list={{ "active-nav": isActive("/about") }}
           >

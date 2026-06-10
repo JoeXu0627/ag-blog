@@ -10,6 +10,7 @@ export default {
     home: "首页",
     posts: "文章",
     tags: "标签",
+    events: "活动",
     about: "关于",
     archives: "归档",
     search: "搜索",
@@ -67,6 +68,12 @@ export default {
     noResults: "没有找到结果",
     goToPreviousPage: "上一页",
     goToNextPage: "下一页",
+  },
+  events: {
+    title: "活动",
+    desc: "线上、线下交流活动的记录，激励自己持续走出去。",
+    online: "线上",
+    offline: "线下",
   },
   notFound: {
     title: "404 页面不存在",

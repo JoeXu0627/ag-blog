@@ -8,6 +8,7 @@ export interface UIStrings {
     home: string;
     posts: string;
     tags: string;
+    events: string;
     about: string;
     archives: string;
     search: string;
@@ -65,6 +66,12 @@ export interface UIStrings {
     noResults: string;
     goToPreviousPage: string;
     goToNextPage: string;
+  };
+  events: {
+    title: string;
+    desc: string;
+    online: string;
+    offline: string;
   };
   notFound: {
     title: string;

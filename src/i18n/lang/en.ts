@@ -10,6 +10,7 @@ export default {
     home: "Home",
     posts: "Posts",
     tags: "Tags",
+    events: "Events",
     about: "About",
     archives: "Archives",
     search: "Search",
@@ -67,6 +68,12 @@ export default {
     noResults: "No results found",
     goToPreviousPage: "Go to previous page",
     goToNextPage: "Go to next page",
+  },
+  events: {
+    title: "Events",
+    desc: "A log of online and offline events I've joined \u2014 a nudge to keep showing up.",
+    online: "Online",
+    offline: "Offline",
   },
   notFound: {
     title: "404 Not Found",
