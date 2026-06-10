@@ -11,6 +11,8 @@ tags:
 
 On the evening of April 24th, I joined Yuki for a ninety-minute livestream on "how ordinary people actually use AI" — a live look at what my "barely touch the keyboard" working style really looks like. This post is a recap compiled from the recording.
 
+![Livestream poster: Watching People Use AI, Episode 1 — a chat with JoJo](@/assets/images/yuki-livestream-poster.jpg)
+
 ## Background: why my workflow got rebuilt so fast
 
 Two forces converged.
