@@ -9,7 +9,7 @@ Hi, I'm **JoJo Xutang** 👋
 
 I graduated from Xidian University in 2012, and have worked at iFLYTEK Research, Dedao (Luoji Siwei), and ByteDance — on model training, big data engineering, and B2B consulting. I've since left to build my own startup, making AI products for the global market.
 
-These days I focus on **LLMs**, **SEO**, and **audio/video technology**. This blog is where I write down what I learn and think about along the way.
+These days I focus on **LLMs**, **SEO**, **audio/video technology**, and **U.S. stock investing**. This blog is where I write down what I learn and think about along the way.
 
 ## Contact
 
