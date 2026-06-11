@@ -30,6 +30,7 @@ export default defineAstroPaperConfig({
   },
   socials: [
     { name: "github",   url: "https://github.com/JoeXu0627" },
+    { name: "linkedin", url: "https://www.linkedin.com/in/xutangly/" },
     { name: "mail",     url: "mailto:xutangly@gmail.com" },
   ],
   shareLinks: [
