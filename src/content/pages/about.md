@@ -14,5 +14,6 @@ description: "关于徐唐JoJo和这个博客。"
 ## 联系我
 
 - GitHub：[JoeXu0627](https://github.com/JoeXu0627)
+- LinkedIn：[xutangly](https://www.linkedin.com/in/xutangly/)
 - 邮箱：[xutangly@gmail.com](mailto:xutangly@gmail.com)
 - 微信：xutangly（申请好友烦请说明来意）

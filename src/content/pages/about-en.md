@@ -14,5 +14,6 @@ These days I focus on **LLMs**, **SEO**, and **audio/video technology**. This bl
 ## Contact
 
 - GitHub: [JoeXu0627](https://github.com/JoeXu0627)
+- LinkedIn: [xutangly](https://www.linkedin.com/in/xutangly/)
 - Email: [xutangly@gmail.com](mailto:xutangly@gmail.com)
 - WeChat: xutangly (please mention why you're adding me)
